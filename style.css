@@ -1,15 +1,16 @@
 body{
-    .kids {
+    .kids{
         border: 5px outset red;
         border-radius:40px;
         background-color: lightblue;    
         text-align: center;
-        width: 750px;
+        width: 50px;
         margin:auto;
         margin-top: 20px;
         
         
     }
+
     .protest-guerrilla-regular {
         font-family: "Protest Guerrilla", sans-serif;
         font-weight: 400;

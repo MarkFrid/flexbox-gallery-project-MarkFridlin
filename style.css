@@ -1,14 +1,32 @@
 body{
-    .kids{
+    .card{
         border: 5px outset red;
         border-radius:40px;
         background-color: lightblue;    
         text-align: center;
-        width: 50px;
+        width: 20rem;
         margin:auto;
         margin-top: 20px;
         
         
+    }
+    .image{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      flex-shrink: 0;
+      background-color: transparent;
+      box-shadow: none;
+      border: 3px double azure;
+    }
+    .container{
+      display: flex;
+      width: 50%;
+      margin: 2.5rem auto;
+      flex-direction: row;
+      align-items: left;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
     }
 
     .protest-guerrilla-regular {

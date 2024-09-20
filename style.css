@@ -6,8 +6,7 @@ body{
         background-color: lightblue;    
         text-align: center;
         width: 20rem;
-        margin:auto;
-        margin-top: 20px;
+        margin:10 auto;
     }
     .card-anni-1 {
 
@@ -40,7 +39,14 @@ body{
     .card-anni-3:hover {
       transform: rotate(719deg);
     }
-    .card-anni-4
+    .card-anni-4{
+      transition: 3s ease;
+     }
+    .card-anni-4:hover{
+     transform: translateY(-1000px);
+    }
+    .card
+
     .container{
       display: flex;
       width: 60%;

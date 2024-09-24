@@ -1,5 +1,9 @@
 body{
   background-image: url("images/usa.png");
+  background-size: cover;    
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
     
       
     background-color: rgb(0, 0, 0);
@@ -10,19 +14,19 @@ body{
     color: rgba(128, 97, 97, 0.984);
 }
 .card{
-  border: 5px outset red;
-  border-radius:40px;
+  border: 0.5rem outset red;
+  border-radius:2rem;
   background-color: lightblue;    
   text-align: center;
   width: 20rem;
   margin:10 auto;
 }
-.card-anni-1 {
+#card-anni-1 {
 
 transition: transform 0.3s ease;
 }
 
-.card-anni-1:hover {
+#card-anni-1:hover {
 transform: scale(7);
 }
 .image{
@@ -42,7 +46,7 @@ transition: background-color 0.3s ease;
 background-image: url(images/whalen.png);
 }
 .card-anni-3 {
-transition: transform 02s ease;
+transition: transform 2s ease;
 }
 
 .card-anni-3:hover {
@@ -65,7 +69,7 @@ animation: wave 3s ease-in-out;
 }
 
 .card-anni-5:hover {
-  box-shadow: 0 81px 20px rgb(116, 57, 3);
+  box-shadow: 0 5rem 7rem rgb(116, 57, 3);
 }
 
 
@@ -88,7 +92,7 @@ flex-wrap: wrap;
 }
 
 .protest-guerrilla-regular {
-  font-family: "Protest Guerrilla", sans-serif;
+  font-family: "Protest Guerrilla", Arial, sans-serif
   font-weight: 400;
   font-style: normal;
 }

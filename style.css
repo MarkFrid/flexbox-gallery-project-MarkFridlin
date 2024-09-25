@@ -13,15 +13,16 @@ body{
     text-align: center;
     color: rgba(128, 97, 97, 0.984);
 }
-.card{
+.card {
+  width: 20%;
   border: 0.5rem outset red;
-  border-radius:2rem;
+  border-radius: 2rem;
   background-color: lightblue;    
   text-align: center;
-  width: 20rem;
-  margin:10 auto;
+  margin: 10 auto;
+  box-shadow: 5rem 8rem 1rem rgb(201,183,155)
 }
-#card-anni-1 {
+  #card-anni-1 {
 
 transition: transform 0.3s ease;
 }
